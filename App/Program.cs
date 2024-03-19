@@ -41,13 +41,13 @@ namespace ConsoleApp1
                 throw new ArgumentException("Array cannot be null or empty.");
             }
 
-            int sumData = 0;
+            int sumValue = 0;
             foreach (int num in array)
             {
-                sumData += num;
+                sumValue += num;
             }
 
-            return (double)sumData / array.Length;
+            return (double)sumValue / array.Length;
         }
         static int FindMaxValue(int[] array)
         {
