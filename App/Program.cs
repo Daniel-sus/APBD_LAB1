@@ -10,6 +10,9 @@ namespace ConsoleApp1
             string name = Console.ReadLine();
 
             Console.WriteLine($"Hello, {name}!");
+
+            Console.WriteLine("What's your age?");
+            string age = Console.ReadLine();
         }
     }
 }
