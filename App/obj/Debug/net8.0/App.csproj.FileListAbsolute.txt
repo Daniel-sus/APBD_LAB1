@@ -23,3 +23,4 @@
 /Users/danielyaroshovets/Desktop/APBD_LAB1/App/obj/Debug/net8.0/App.pdb
 /Users/danielyaroshovets/Desktop/APBD_LAB1/App/obj/Debug/net8.0/App.genruntimeconfig.cache
 /Users/danielyaroshovets/Desktop/APBD_LAB1/App/obj/Debug/net8.0/ref/App.dll
+/Users/danielyaroshovets/Desktop/APBD_LAB1/App/obj/Debug/net8.0/App.sourcelink.json
