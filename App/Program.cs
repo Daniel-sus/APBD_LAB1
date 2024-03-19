@@ -12,7 +12,19 @@ namespace ConsoleApp1
             Console.WriteLine($"Hello, {name}!");
 
             Console.WriteLine("What's your age?");
-            string age = Console.ReadLine();
+            string ageInput = Console.ReadLine();
+
+            int.TryParse(ageInput, out int age);
+            Console.WriteLine($"Your age is: {age}!");
+
+            if (age >= 18)
+            {
+                Console.WriteLine("Access granted");
+            }
+            else
+            {
+                Console.WriteLine("Access denied");
+            }
         }
     }
 }
